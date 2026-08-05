@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ok-chiryoin.github.io/sitemap.xml
