@@ -1,297 +1,301 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="松山市のオッケー治療院は、国家資格者がご自宅や介護施設へ伺う訪問マッサージを行っています。マッサージを基本に、ご希望に応じて鍼治療も行います。健康保険の利用や医師の同意についてもご相談ください。">
+  <meta name="description" content="松山市のマッサージ・はり オッケー治療院。国家資格者がご自宅や介護施設へ伺い、健康保険を使った訪問マッサージを行います。マッサージを基本に、ご希望に応じて鍼治療にも対応。ご家族・ケアマネジャーからの相談も承ります。">
   <meta name="robots" content="index, follow, max-image-preview:large">
-  <meta name="theme-color" content="#172d3b">
+  <meta name="theme-color" content="#4f806e">
   <link rel="canonical" href="https://ok-chiryoin.github.io/">
   <meta property="og:locale" content="ja_JP">
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="オッケー治療院">
+  <meta property="og:site_name" content="マッサージ・はり オッケー治療院">
   <meta property="og:title" content="松山市の訪問マッサージ｜健康保険の利用相談｜オッケー治療院">
-  <meta property="og:description" content="国家資格者が松山市のご自宅や介護施設へ訪問。マッサージを基本に、ご希望に応じて鍼治療も行います。ご家族・ケアマネジャーからもご相談いただけます。">
+  <meta property="og:description" content="国家資格者が松山市のご自宅・施設へ。健康保険を使った訪問マッサージを中心に、ご希望に応じて鍼治療も行います。">
   <meta property="og:url" content="https://ok-chiryoin.github.io/">
-  <meta property="og:image" content="https://ok-chiryoin.github.io/assets/okke-hero-original.webp">
-  <meta property="og:image:alt" content="ご自宅で利用者と話をする訪問施術者のイメージ">
+  <meta property="og:image" content="https://ok-chiryoin.github.io/assets/hero-home-visit.webp">
+  <meta property="og:image:alt" content="ご自宅で利用者の話を丁寧に聞く訪問施術者">
   <meta name="twitter:card" content="summary_large_image">
   <title>松山市の訪問マッサージ｜健康保険の利用相談｜オッケー治療院</title>
-  <style>:root {
-  --navy: #172d3b;
-  --navy-2: #234454;
-  --cream: #f4efe3;
-  --paper: #fbfaf6;
-  --orange: #d86f45;
-  --orange-dark: #b55233;
-  --sage: #9ba897;
-  --ink: #17272f;
-  --muted: #647178;
-  --line: #d9d4c8;
-  --white: #fff;
-}
+  <style>
+    :root {
+      --green-900: #1f4b3d;
+      --green-800: #2f6554;
+      --green-700: #4f806e;
+      --green-200: #d5e7df;
+      --green-100: #edf6f1;
+      --cream: #fffaf3;
+      --orange: #e98a5c;
+      --orange-dark: #bd603a;
+      --ink: #24332e;
+      --muted: #5e6f68;
+      --line: #dce7e1;
+      --white: #ffffff;
+      --shadow: 0 18px 55px rgba(37, 78, 64, .10);
+      --radius: 24px;
+      --content: 1160px;
+    }
 
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 84px; }
-body {
-  margin: 0;
-  color: var(--ink);
-  background: var(--paper);
-  font-family: "BIZ UDPGothic", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
-  line-height: 1.85;
-  -webkit-font-smoothing: antialiased;
-}
-a { color: inherit; text-decoration: none; }
-img { display: block; max-width: 100%; }
-.skipLink {
-  position: fixed; z-index: 100; top: 8px; left: 8px; padding: 10px 14px;
-  color: var(--white); background: var(--navy); transform: translateY(-150%);
-}
-.skipLink:focus { transform: translateY(0); }
-button, a, summary { -webkit-tap-highlight-color: transparent; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 88px; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--white);
+      font-family: "BIZ UDPGothic", "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+    svg { display: block; }
+    h1, h2, h3, p { overflow-wrap: anywhere; }
+    .container { width: min(var(--content), calc(100% - 48px)); margin-inline: auto; }
+    .skip-link {
+      position: fixed; z-index: 200; top: 10px; left: 10px; padding: 10px 16px;
+      color: var(--white); background: var(--green-900); transform: translateY(-150%);
+    }
+    .skip-link:focus { transform: none; }
+    :focus-visible { outline: 3px solid var(--orange); outline-offset: 4px; }
 
-.siteHeader {
-  position: sticky; z-index: 50; top: 0;
-  min-height: 78px; padding: 0 max(24px, calc((100% - 1240px) / 2));
-  display: flex; align-items: center; gap: 38px;
-  color: var(--navy); background: rgba(251, 250, 246, .95);
-  border-bottom: 1px solid rgba(23,45,59,.12); backdrop-filter: blur(12px);
-}
-.identity { display: inline-flex; align-items: center; gap: 12px; margin-right: auto; }
-.identitySeal {
-  width: 42px; height: 42px; display: grid; place-items: center;
-  color: var(--cream); background: var(--navy); border-radius: 50% 50% 46% 54%;
-  font-size: 21px; font-weight: 800;
-}
-.identity strong { display: block; font-size: 17px; letter-spacing: .08em; line-height: 1.3; }
-.identity small { display: block; color: #6c7779; font-family: "Yu Gothic", sans-serif; font-size: 9px; letter-spacing: .11em; }
-nav { display: flex; gap: 28px; font-family: "Yu Gothic", sans-serif; font-size: 12px; font-weight: 700; }
-nav a { border-bottom: 1px solid transparent; }
-nav a:hover { color: var(--orange-dark); border-color: var(--orange); }
-.headerCall { padding: 9px 0 9px 25px; border-left: 1px solid var(--line); line-height: 1.25; }
-.headerCall span { display: block; color: var(--orange-dark); font-family: "Yu Gothic", sans-serif; font-size: 9px; font-weight: 800; letter-spacing: .15em; }
-.headerCall strong { display: block; margin-top: 3px; font-family: Georgia, serif; font-size: 18px; letter-spacing: .03em; }
+    .site-header {
+      position: sticky; z-index: 100; top: 0; height: 80px;
+      background: rgba(255,255,255,.96); border-bottom: 1px solid rgba(79,128,110,.14);
+      backdrop-filter: blur(12px);
+    }
+    .header-inner { height: 100%; display: flex; align-items: center; gap: 32px; }
+    .brand { display: flex; align-items: center; gap: 11px; margin-right: auto; line-height: 1.25; }
+    .brand-mark {
+      width: 44px; height: 44px; display: grid; place-items: center; flex: 0 0 auto;
+      color: var(--white); background: var(--green-700); border-radius: 50% 50% 48% 52%;
+      font-family: "Yu Mincho", serif; font-size: 21px; font-weight: 700;
+    }
+    .brand small { display: block; color: var(--green-700); font-size: 10px; font-weight: 700; letter-spacing: .09em; }
+    .brand strong { display: block; margin-top: 2px; font-size: 17px; letter-spacing: .04em; }
+    .main-nav { display: flex; align-items: center; gap: 24px; font-size: 13px; font-weight: 700; }
+    .main-nav a:hover { color: var(--green-700); }
+    .header-phone {
+      min-height: 48px; padding: 7px 16px; display: flex; align-items: center; gap: 10px;
+      color: var(--white); background: var(--green-800); border-radius: 999px;
+    }
+    .header-phone svg { width: 20px; height: 20px; }
+    .header-phone span { display: block; font-size: 10px; line-height: 1.2; }
+    .header-phone strong { display: block; font-size: 16px; line-height: 1.3; letter-spacing: .02em; }
 
-.hero {
-  min-height: 720px; padding: 68px max(28px, calc((100% - 1240px)/2)) 80px;
-  display: grid; grid-template-columns: .88fr 1.12fr; gap: 76px; align-items: center;
-  overflow: hidden; background: var(--cream);
-}
-.heroCopy { position: relative; z-index: 2; }
-.kicker, .sectionNo {
-  margin: 0 0 15px; color: var(--orange-dark); font-family: "Yu Gothic", sans-serif;
-  font-size: 11px; font-weight: 800; letter-spacing: .2em;
-}
-.hero h1 { margin: 0; font-size: clamp(42px, 4.7vw, 68px); font-weight: 600; line-height: 1.34; letter-spacing: .03em; }
-.hero h1 em { color: var(--orange-dark); font-style: normal; }
-.heroLead { max-width: 550px; margin: 28px 0; color: #4f6169; font-family: "Yu Gothic", sans-serif; font-size: 15px; line-height: 2.05; }
-.heroAction { display: flex; align-items: center; gap: 18px; }
-.primaryCall {
-  min-width: 300px; min-height: 70px; padding: 12px 23px; display: flex; align-items: center; gap: 14px;
-  color: var(--white); background: var(--navy); box-shadow: 8px 8px 0 var(--orange);
-  transition: transform .2s, box-shadow .2s;
-}
-.primaryCall:hover { transform: translate(3px,3px); box-shadow: 5px 5px 0 var(--orange); }
-.callIcon { width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.35); border-radius: 50%; font-family: sans-serif; }
-.primaryCall small { display: block; color: #d9e1e1; font-family: "Yu Gothic", sans-serif; font-size: 9px; letter-spacing: .12em; }
-.primaryCall strong { display: block; font-family: Georgia, serif; font-size: 21px; letter-spacing: .04em; line-height: 1.35; }
-.heroAction > p { margin: 0; color: #6c7777; font-family: "Yu Gothic", sans-serif; font-size: 9px; line-height: 1.7; }
-.heroImageWrap { position: relative; height: 590px; }
-.heroImageWrap::before { content: ""; position: absolute; z-index: 0; inset: 34px -110px -30px 72px; border: 1px solid #c6bfae; border-radius: 45% 55% 8px 50%; }
-.heroImageWrap img {
-  position: relative; z-index: 1; width: 100%; height: 100%; object-fit: cover; object-position: center;
-  border-radius: 48% 52% 12px 40%; filter: saturate(.84) contrast(.98);
-}
-.sunDisc { position: absolute; z-index: 2; top: -25px; right: -34px; width: 116px; height: 116px; border-radius: 50%; background: var(--orange); mix-blend-mode: multiply; opacity: .9; }
-.imageCaption {
-  position: absolute; z-index: 3; left: -32px; bottom: 30px; margin: 0; padding: 15px 20px;
-  color: var(--white); background: var(--navy); font-size: 14px; letter-spacing: .04em;
-}
-.imageCaption span { margin-right: 10px; color: #e8a184; font-family: Georgia, serif; }
+    .hero { position: relative; overflow: hidden; background: linear-gradient(135deg, #f4faf7 0%, #fffaf3 100%); }
+    .hero::before, .hero::after { content: ""; position: absolute; border-radius: 50%; pointer-events: none; }
+    .hero::before { width: 300px; height: 300px; top: -150px; left: -80px; background: rgba(213,231,223,.55); }
+    .hero::after { width: 190px; height: 190px; right: 42%; bottom: -120px; background: rgba(233,138,92,.10); }
+    .hero-grid {
+      min-height: 650px; padding-block: 64px; display: grid; grid-template-columns: .95fr 1.05fr;
+      gap: 66px; align-items: center;
+    }
+    .hero-copy { position: relative; z-index: 2; }
+    .eyebrow {
+      margin: 0 0 16px; display: inline-flex; align-items: center; gap: 8px;
+      color: var(--green-800); font-size: 13px; font-weight: 800; letter-spacing: .06em;
+    }
+    .eyebrow::before { content: ""; width: 28px; height: 2px; background: var(--orange); }
+    .hero h1 { margin: 0; font-size: clamp(40px, 4.8vw, 64px); line-height: 1.36; letter-spacing: .02em; }
+    .hero h1 .soft { color: var(--green-700); }
+    .hero-lead { max-width: 620px; margin: 24px 0 26px; color: var(--muted); font-size: 16px; line-height: 2; }
+    .hero-badges { margin: 0 0 28px; padding: 0; display: flex; flex-wrap: wrap; gap: 9px; list-style: none; }
+    .hero-badges li {
+      padding: 7px 12px; color: var(--green-800); background: var(--white);
+      border: 1px solid var(--green-200); border-radius: 999px; font-size: 12px; font-weight: 700;
+    }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+    .cta-phone {
+      min-height: 72px; padding: 12px 24px; display: inline-flex; align-items: center; gap: 14px;
+      color: var(--white); background: var(--green-800); border-radius: 16px;
+      box-shadow: 0 12px 30px rgba(47,101,84,.22); transition: transform .2s, background .2s;
+    }
+    .cta-phone:hover { transform: translateY(-2px); background: var(--green-900); }
+    .cta-phone .icon { width: 38px; height: 38px; display: grid; place-items: center; background: rgba(255,255,255,.14); border-radius: 50%; }
+    .cta-phone svg { width: 21px; height: 21px; }
+    .cta-phone small { display: block; font-size: 11px; line-height: 1.25; }
+    .cta-phone strong { display: block; font-size: 22px; letter-spacing: .03em; line-height: 1.35; }
+    .hero-note { margin: 0; color: var(--muted); font-size: 11px; line-height: 1.6; }
+    .hero-visual { position: relative; z-index: 1; }
+    .hero-photo {
+      position: relative; overflow: hidden; aspect-ratio: 1.1 / 1; border-radius: 44px 44px 120px 44px;
+      background: var(--green-100); box-shadow: var(--shadow);
+    }
+    .hero-photo img { width: 100%; height: 100%; object-fit: cover; object-position: 58% center; }
+    .photo-label {
+      position: absolute; left: -24px; bottom: 34px; max-width: 250px; padding: 17px 20px;
+      color: var(--green-900); background: rgba(255,255,255,.96); border-radius: 16px;
+      box-shadow: 0 12px 34px rgba(33,75,61,.18); font-size: 14px; font-weight: 800; line-height: 1.6;
+    }
+    .photo-label span { display: block; color: var(--orange-dark); font-size: 11px; letter-spacing: .06em; }
+    .hero-dot { position: absolute; top: -20px; right: -18px; width: 92px; height: 92px; border: 14px solid var(--orange); border-radius: 50%; opacity: .72; }
 
-.quickFacts {
-  padding: 0 max(28px, calc((100% - 1120px)/2)); display: grid;
-  grid-template-columns: repeat(4, 1fr); color: var(--cream); background: var(--navy);
-}
-.quickFacts div { min-height: 124px; padding: 26px 24px; border-right: 1px solid #45606d; }
-.quickFacts div:last-child { border-right: 0; }
-.quickFacts strong { display: block; color: #f1a689; font-size: 18px; line-height: 1.45; }
-.quickFacts span { display: block; margin-top: 7px; color: #c5d0d4; font-family: "Yu Gothic", sans-serif; font-size: 11px; line-height: 1.7; }
+    .trust-strip { background: var(--green-800); }
+    .trust-grid { display: grid; grid-template-columns: repeat(3, 1fr); }
+    .trust-item { min-height: 120px; padding: 23px 28px; display: flex; align-items: center; gap: 16px; color: var(--white); border-right: 1px solid rgba(255,255,255,.18); }
+    .trust-item:last-child { border-right: 0; }
+    .trust-item svg { width: 34px; height: 34px; flex: 0 0 auto; color: #bfe0d2; }
+    .trust-item strong { display: block; font-size: 16px; }
+    .trust-item span { display: block; margin-top: 3px; color: #d9e9e2; font-size: 11px; line-height: 1.6; }
 
-.signal { padding: 94px max(28px, calc((100% - 1120px)/2)); display: grid; grid-template-columns: .9fr 1.1fr; gap: 70px; background: var(--paper); }
-.signal h2, .sectionHeading h2, .insurance h2, .visit h2, .faq h2, .contact h2, .promise h2 { margin: 0; font-size: clamp(31px, 3.3vw, 48px); font-weight: 600; line-height: 1.5; letter-spacing: .03em; }
-.signal ul { margin: 0; padding: 0; list-style: none; }
-.signal li { min-height: 68px; padding: 13px 0; display: flex; align-items: center; gap: 18px; border-top: 1px solid var(--line); font-family: "Yu Gothic", sans-serif; font-size: 14px; font-weight: 700; }
-.signal li:last-child { border-bottom: 1px solid var(--line); }
-.signal li span { color: var(--orange-dark); font-family: Georgia, serif; font-size: 13px; }
-.signalNote { grid-column: 2; margin: -46px 0 0; color: var(--muted); font-family: "Yu Gothic", sans-serif; font-size: 11px; }
+    .section { padding-block: 104px; }
+    .section-soft { background: var(--green-100); }
+    .section-cream { background: var(--cream); }
+    .section-dark { color: var(--white); background: var(--green-900); }
+    .section-heading { max-width: 700px; margin-bottom: 48px; }
+    .section-heading.center { margin-inline: auto; text-align: center; }
+    .section-label { margin: 0 0 12px; color: var(--green-700); font-size: 12px; font-weight: 800; letter-spacing: .12em; }
+    .section-dark .section-label { color: #aed6c6; }
+    .section-heading h2 { margin: 0; font-size: clamp(30px, 3.5vw, 46px); line-height: 1.5; letter-spacing: .02em; }
+    .section-heading > p:last-child { margin: 18px 0 0; color: var(--muted); font-size: 14px; }
+    .section-dark .section-heading > p:last-child { color: #ceddd7; }
 
-.eligible { padding: 104px max(28px, calc((100% - 1120px)/2)); background: #e9e5db; }
-.eligibleGrid { display: grid; grid-template-columns: .82fr 1.18fr; gap: 74px; }
-.eligibleLead p:last-child { color: var(--muted); font-family: "Yu Gothic", sans-serif; font-size: 13px; line-height: 2; }
-.eligibleList { margin: 0; padding: 0; display: grid; gap: 12px; list-style: none; }
-.eligibleList li { padding: 22px 24px 22px 72px; position: relative; background: var(--paper); border-left: 4px solid var(--orange); font-family: "Yu Gothic", sans-serif; font-size: 14px; font-weight: 700; line-height: 1.8; }
-.eligibleList span { position: absolute; left: 24px; top: 21px; color: var(--orange-dark); font-family: Georgia, serif; font-size: 18px; }
-.eligibleNote { margin: 20px 0 0; color: var(--muted); font-family: "Yu Gothic", sans-serif; font-size: 11px; }
+    .concern-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    .concern-card { padding: 30px; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); }
+    .concern-card .num { display: block; color: var(--orange-dark); font-size: 13px; font-weight: 800; }
+    .concern-card h3 { margin: 13px 0 8px; font-size: 20px; line-height: 1.55; }
+    .concern-card p { margin: 0; color: var(--muted); font-size: 13px; }
+    .concern-note { margin: 28px 0 0; padding: 19px 24px; color: var(--green-900); background: #dfeee7; border-radius: 16px; text-align: center; font-size: 14px; font-weight: 700; }
 
-.promise { min-height: 620px; padding: 110px max(28px, calc((100% - 1160px)/2)); display: grid; grid-template-columns: 1fr .9fr; gap: 90px; color: var(--cream); background: var(--navy); }
-.promiseTitle { display: flex; gap: 38px; }
-.verticalNote { margin: 4px 0 0; color: #79909a; font-family: Georgia, serif; font-size: 10px; letter-spacing: .18em; writing-mode: vertical-rl; }
-.sectionNo.light { color: #e79a7c; }
-.promiseText { align-self: end; }
-.promiseText > p { margin: 0 0 42px; color: #cad4d7; font-family: "Yu Gothic", sans-serif; font-size: 14px; line-height: 2.15; }
-.threeWords { display: grid; grid-template-columns: repeat(3,1fr); border-top: 1px solid #45606d; }
-.threeWords span { padding: 22px 14px 0 0; border-right: 1px solid #45606d; }
-.threeWords span:last-child { padding-left: 14px; border-right: 0; }
-.threeWords b { display: block; color: #f1a689; font-size: 20px; font-weight: 600; }
-.threeWords small { display: block; margin-top: 5px; color: #9eb0b7; font-family: "Yu Gothic", sans-serif; font-size: 9px; }
+    .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .feature-card { padding: 34px 30px; background: var(--white); border-radius: var(--radius); box-shadow: var(--shadow); }
+    .feature-icon { width: 66px; height: 66px; display: grid; place-items: center; color: var(--green-700); background: var(--green-100); border-radius: 20px; }
+    .feature-icon svg { width: 36px; height: 36px; }
+    .feature-card h3 { margin: 22px 0 10px; font-size: 21px; }
+    .feature-card p { margin: 0; color: var(--muted); font-size: 13px; }
 
-.care { padding: 112px max(28px, calc((100% - 1120px)/2)); background: var(--cream); }
-.sectionHeading { max-width: 670px; margin-bottom: 54px; }
-.sectionHeading > p:last-child { color: var(--muted); font-family: "Yu Gothic", sans-serif; font-size: 13px; }
-.careBoard { display: grid; grid-template-columns: 1.15fr .85fr; gap: 1px; background: #c9c1b2; border: 1px solid #c9c1b2; }
-.careBoard article { min-height: 265px; padding: 38px; background: var(--paper); }
-.careBoard .careMain { grid-row: span 2; padding: 55px; display: flex; flex-direction: column; justify-content: space-between; background: var(--orange); color: var(--white); }
-.careIndex { color: var(--orange-dark); font-family: Georgia, serif; font-size: 48px; line-height: 1; }
-.careMain .careIndex { color: #ffd6c6; }
-.careBoard h3 { margin: 18px 0 9px; font-size: 24px; font-weight: 600; }
-.careMain h3 { font-size: 32px; }
-.careBoard p { margin: 0; color: var(--muted); font-family: "Yu Gothic", sans-serif; font-size: 13px; line-height: 2; }
-.careMain p { color: #fff2ec; }
-.finePrint { margin: 18px 0 0; color: #77766e; font-family: "Yu Gothic", sans-serif; font-size: 10px; text-align: right; }
+    .service-panel {
+      display: grid; grid-template-columns: 1.15fr .85fr; overflow: hidden;
+      background: var(--white); border: 1px solid var(--line); border-radius: 32px; box-shadow: var(--shadow);
+    }
+    .service-main { padding: 54px; background: linear-gradient(150deg, var(--green-800), var(--green-900)); color: var(--white); }
+    .service-side { padding: 54px; }
+    .service-tag { display: inline-block; padding: 6px 10px; color: var(--green-900); background: #cbe5d9; border-radius: 999px; font-size: 11px; font-weight: 800; }
+    .service-main h3, .service-side h3 { margin: 20px 0 14px; font-size: 29px; line-height: 1.45; }
+    .service-main p { margin: 0; color: #d8e6e0; font-size: 14px; }
+    .service-side p { margin: 0; color: var(--muted); font-size: 14px; }
+    .service-list { margin: 28px 0 0; padding: 0; display: grid; gap: 12px; list-style: none; }
+    .service-list li { padding-left: 27px; position: relative; font-size: 13px; font-weight: 700; }
+    .service-list li::before { content: "✓"; position: absolute; left: 0; color: #bfe0d2; }
+    .service-side .service-list li::before { color: var(--orange-dark); }
+    .service-note { margin: 20px 0 0 !important; font-size: 11px !important; }
 
-.insurance { padding: 110px max(28px, calc((100% - 1080px)/2)); display: grid; grid-template-columns: .75fr 1.25fr; gap: 90px; background: var(--paper); }
-.insuranceQuestion { align-self: start; padding: 45px 40px; position: relative; border: 1px solid var(--navy); }
-.insuranceQuestion::after { content: ""; position: absolute; right: -18px; bottom: 28px; width: 34px; height: 34px; background: var(--paper); border-right: 1px solid var(--navy); border-top: 1px solid var(--navy); transform: rotate(45deg); }
-.insuranceQuestion > span { display: block; color: var(--orange); font-family: Georgia, serif; font-size: 64px; line-height: 1; }
-.insuranceQuestion p { margin: 15px 0 0; font-size: 23px; line-height: 1.7; }
-.insuranceAnswer > p:not(.sectionNo) { color: var(--muted); font-family: "Yu Gothic", sans-serif; font-size: 14px; line-height: 2.1; }
-.insuranceAnswer ul { margin: 27px 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
-.insuranceAnswer li { padding: 12px 0 12px 23px; position: relative; border-bottom: 1px solid var(--line); font-family: "Yu Gothic", sans-serif; font-size: 12px; font-weight: 700; }
-.insuranceAnswer li::before { content: "—"; position: absolute; left: 0; color: var(--orange); }
-.insuranceAnswer > a { display: inline-flex; gap: 18px; align-items: center; padding-bottom: 5px; color: var(--orange-dark); border-bottom: 1px solid var(--orange); font-family: "Yu Gothic", sans-serif; font-size: 12px; font-weight: 800; }
+    .insurance-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 70px; align-items: start; }
+    .insurance-copy h2 { margin: 0; font-size: clamp(30px, 3.5vw, 46px); line-height: 1.5; }
+    .insurance-copy > p:not(.section-label) { color: var(--muted); font-size: 14px; }
+    .insurance-points { display: grid; gap: 14px; }
+    .insurance-point { padding: 24px 26px; display: grid; grid-template-columns: 46px 1fr; gap: 18px; background: var(--white); border: 1px solid var(--line); border-radius: 18px; }
+    .insurance-point > span { width: 46px; height: 46px; display: grid; place-items: center; color: var(--white); background: var(--green-700); border-radius: 50%; font-weight: 800; }
+    .insurance-point h3 { margin: 0 0 5px; font-size: 17px; }
+    .insurance-point p { margin: 0; color: var(--muted); font-size: 12px; }
+    .insurance-call { margin-top: 22px; display: inline-flex; align-items: center; gap: 8px; color: var(--green-800); font-size: 13px; font-weight: 800; border-bottom: 1px solid var(--green-700); }
 
-.cost { padding: 106px max(28px, calc((100% - 1120px)/2)); color: var(--cream); background: var(--navy); }
-.costHeader { max-width: 760px; }
-.costHeader > p:last-child { color: #c4d0d4; font-family: "Yu Gothic", sans-serif; font-size: 14px; line-height: 2; }
-.costGrid { margin-top: 42px; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid #4b6571; border-bottom: 1px solid #4b6571; }
-.costGrid article { min-height: 190px; padding: 28px 28px 30px; border-right: 1px solid #4b6571; }
-.costGrid article:last-child { border-right: 0; }
-.costGrid span { color: #f1a689; font-family: Georgia, serif; font-size: 13px; }
-.costGrid h3 { margin: 13px 0 8px; color: var(--white); font-size: 21px; }
-.costGrid p { margin: 0; color: #bac9ce; font-family: "Yu Gothic", sans-serif; font-size: 12px; line-height: 1.9; }
-.costAction { margin: 26px 0 0; }
-.costAction a { display: inline-flex; padding-bottom: 5px; color: #f1a689; border-bottom: 1px solid #f1a689; font-family: "Yu Gothic", sans-serif; font-size: 12px; font-weight: 800; }
+    .flow-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+    .flow-card { min-height: 250px; padding: 28px 24px; position: relative; background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.16); border-radius: 20px; }
+    .flow-card::after { content: "→"; position: absolute; top: 44px; right: -16px; color: #a9cdbf; font-size: 24px; }
+    .flow-card:last-child::after { display: none; }
+    .flow-num { width: 48px; height: 48px; display: grid; place-items: center; color: var(--green-900); background: #c9e4d9; border-radius: 50%; font-weight: 800; }
+    .flow-card h3 { margin: 21px 0 8px; font-size: 19px; }
+    .flow-card p { margin: 0; color: #cadbd4; font-size: 12px; }
 
-.visit { padding: 110px max(28px, calc((100% - 1120px)/2)); background: #e9e5db; }
-.visit .sectionHeading { margin-left: auto; text-align: right; }
-.visitList { margin: 0; padding: 0; list-style: none; }
-.visitList li { display: grid; grid-template-columns: 90px 1fr; gap: 28px; padding: 30px 0; border-top: 1px solid #c4bcae; }
-.visitList li:last-child { border-bottom: 1px solid #c4bcae; }
-.visitList > li > span { color: var(--orange-dark); font-family: Georgia, serif; font-size: 23px; }
-.visitList li > div { display: grid; grid-template-columns: 1.15fr .7fr 1fr; gap: 30px; align-items: baseline; }
-.visitList p { margin: 0; color: var(--muted); font-family: "Yu Gothic", sans-serif; font-size: 12px; }
-.visitList .spoken { color: var(--navy); font-family: "Yu Mincho", serif; font-size: 16px; font-weight: 600; }
-.visitList h3 { margin: 0; font-size: 18px; font-weight: 600; }
+    .faq-layout { display: grid; grid-template-columns: .7fr 1.3fr; gap: 68px; }
+    .faq-layout h2 { margin: 0; font-size: clamp(30px, 3.5vw, 46px); line-height: 1.5; }
+    .faq-intro > p:not(.section-label) { color: var(--muted); font-size: 13px; }
+    .faq-list { border-top: 1px solid var(--line); }
+    details { border-bottom: 1px solid var(--line); }
+    summary { position: relative; padding: 22px 44px 22px 0; cursor: pointer; list-style: none; font-size: 15px; font-weight: 800; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: "+"; position: absolute; right: 6px; color: var(--green-700); font-size: 24px; font-weight: 400; }
+    details[open] summary::after { content: "−"; }
+    details p { margin: 0; padding: 0 40px 23px 0; color: var(--muted); font-size: 13px; }
 
-.faq { padding: 110px max(28px, calc((100% - 1120px)/2)); display: grid; grid-template-columns: .7fr 1.3fr; gap: 80px; color: var(--cream); background: var(--navy-2); }
-.faqHeading > p:last-child { color: #aebdc3; font-family: "Yu Gothic", sans-serif; font-size: 11px; }
-.faqList { border-top: 1px solid #56717e; }
-details { border-bottom: 1px solid #56717e; }
-summary { position: relative; padding: 22px 44px 22px 0; display: flex; gap: 18px; cursor: pointer; list-style: none; font-size: 15px; font-weight: 600; }
-summary::-webkit-details-marker { display: none; }
-summary::after { content: "+"; position: absolute; right: 4px; color: #f1a689; font-family: Arial, sans-serif; font-size: 22px; }
-details[open] summary::after { content: "−"; }
-summary span { color: #f1a689; font-family: Georgia, serif; font-size: 13px; }
-details > p { margin: 0; padding: 0 44px 24px 39px; color: #c6d1d5; font-family: "Yu Gothic", sans-serif; font-size: 12px; line-height: 2; }
+    .contact-card {
+      padding: 58px; display: grid; grid-template-columns: 1.05fr .95fr; gap: 70px; align-items: center;
+      background: var(--white); border-radius: 32px; box-shadow: var(--shadow);
+    }
+    .contact-copy h2 { margin: 0; font-size: clamp(30px, 3.5vw, 44px); line-height: 1.5; }
+    .contact-copy > p:not(.section-label) { color: var(--muted); font-size: 14px; }
+    .contact-phone { margin-top: 25px; padding: 19px 23px; display: flex; align-items: center; gap: 14px; color: var(--white); background: var(--orange-dark); border-radius: 17px; }
+    .contact-phone svg { width: 28px; height: 28px; flex: 0 0 auto; }
+    .contact-phone small { display: block; font-size: 11px; }
+    .contact-phone strong { display: block; font-size: clamp(25px, 3vw, 34px); line-height: 1.3; letter-spacing: .04em; }
+    .clinic-data { margin: 0; }
+    .clinic-data div { padding: 15px 0; display: grid; grid-template-columns: 94px 1fr; gap: 14px; border-top: 1px solid var(--line); }
+    .clinic-data div:last-child { border-bottom: 1px solid var(--line); }
+    .clinic-data dt { color: var(--green-700); font-size: 11px; font-weight: 800; }
+    .clinic-data dd { margin: 0; font-size: 13px; font-weight: 700; }
 
-.contact { padding: 115px max(28px, calc((100% - 1080px)/2)); display: grid; grid-template-columns: 1fr .85fr; gap: 100px; background: var(--cream); }
-.contactLead > p:not(.sectionNo) { color: var(--muted); font-family: "Yu Gothic", sans-serif; font-size: 13px; }
-.contactPhone { margin-top: 26px; padding: 23px 0 13px; display: block; border-bottom: 3px solid var(--orange); }
-.contactPhone small { display: block; color: var(--orange-dark); font-family: "Yu Gothic", sans-serif; font-size: 10px; font-weight: 800; letter-spacing: .13em; }
-.contactPhone strong { display: block; font-family: Georgia, serif; font-size: clamp(30px, 4vw, 44px); letter-spacing: .04em; }
-.clinicFacts { margin: 0; align-self: end; }
-.clinicFacts div { padding: 15px 0; display: grid; grid-template-columns: 90px 1fr; border-top: 1px solid var(--line); }
-.clinicFacts div:last-child { border-bottom: 1px solid var(--line); }
-.clinicFacts dt { color: var(--orange-dark); font-family: "Yu Gothic", sans-serif; font-size: 10px; font-weight: 800; }
-.clinicFacts dd { margin: 0; font-family: "Yu Gothic", sans-serif; font-size: 12px; font-weight: 600; }
+    footer { padding: 44px 0 94px; color: #cfe0d9; background: #17392f; }
+    .footer-inner { display: grid; grid-template-columns: 1fr 1fr auto; gap: 28px; align-items: center; }
+    .footer-brand { color: var(--white); font-weight: 800; line-height: 1.6; }
+    .footer-brand small { display: block; color: #b8d0c6; font-size: 10px; }
+    footer p { margin: 0; font-size: 11px; }
+    .mobile-call { display: none; }
 
-footer { padding: 46px max(28px, calc((100% - 1120px)/2)); display: grid; grid-template-columns: 1fr 1fr auto; align-items: center; gap: 30px; color: #aebdc3; background: #10242f; font-family: "Yu Gothic", sans-serif; font-size: 9px; }
-.footerName { display: flex; align-items: center; gap: 12px; color: var(--cream); }
-.footerName span { width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid #718690; border-radius: 50%; font-family: "Yu Mincho", serif; font-size: 17px; }
-.footerName strong { font-family: "Yu Mincho", serif; font-size: 16px; letter-spacing: .1em; }
-.mobileCall { display: none; }
+    @media (max-width: 980px) {
+      .main-nav { display: none; }
+      .hero-grid { gap: 36px; }
+      .hero h1 { font-size: clamp(38px, 5.5vw, 54px); }
+      .concern-grid, .feature-grid { grid-template-columns: repeat(2, 1fr); }
+      .concern-card:last-child, .feature-card:last-child { grid-column: 1 / -1; }
+      .flow-grid { grid-template-columns: repeat(2, 1fr); }
+      .flow-card:nth-child(2)::after { display: none; }
+    }
 
-@media (max-width: 900px) {
-  nav { display: none; }
-  .hero { grid-template-columns: 1fr 1fr; gap: 35px; }
-  .heroAction { align-items: flex-start; flex-direction: column; }
-  .signal, .promise, .insurance, .faq, .contact { gap: 45px; }
-}
+    @media (max-width: 720px) {
+      html { scroll-padding-top: 69px; }
+      body { padding-bottom: 64px; }
+      .container { width: min(100% - 36px, var(--content)); }
+      .site-header { height: 69px; }
+      .brand-mark { width: 39px; height: 39px; }
+      .brand small { font-size: 8px; }
+      .brand strong { font-size: 15px; }
+      .header-phone { display: none; }
+      .hero-grid { min-height: 0; padding: 48px 0 58px; display: flex; flex-direction: column; gap: 42px; }
+      .hero h1 { font-size: clamp(36px, 10.4vw, 47px); line-height: 1.42; }
+      .hero-lead { font-size: 14px; }
+      .hero-actions { display: block; }
+      .cta-phone { width: 100%; justify-content: center; }
+      .hero-note { margin-top: 13px; text-align: center; }
+      .hero-photo { aspect-ratio: .95 / 1; border-radius: 30px 30px 76px 30px; }
+      .hero-photo img { object-position: 60% center; }
+      .photo-label { left: -8px; right: 22px; bottom: 20px; max-width: none; }
+      .hero-dot { width: 68px; height: 68px; top: -14px; right: -8px; border-width: 10px; }
+      .trust-grid { grid-template-columns: 1fr; }
+      .trust-item { min-height: 0; padding: 20px 8px; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.18); }
+      .trust-item:last-child { border-bottom: 0; }
+      .section { padding-block: 74px; }
+      .section-heading { margin-bottom: 34px; }
+      .concern-grid, .feature-grid { grid-template-columns: 1fr; }
+      .concern-card:last-child, .feature-card:last-child { grid-column: auto; }
+      .concern-card, .feature-card { padding: 26px 24px; }
+      .service-panel { grid-template-columns: 1fr; border-radius: 24px; }
+      .service-main, .service-side { padding: 36px 27px; }
+      .service-main h3, .service-side h3 { font-size: 25px; }
+      .insurance-grid, .faq-layout, .contact-card { grid-template-columns: 1fr; gap: 36px; }
+      .flow-grid { grid-template-columns: 1fr; }
+      .flow-card { min-height: 0; }
+      .flow-card::after { content: "↓"; top: auto; right: 24px; bottom: -18px; }
+      .flow-card:nth-child(2)::after { display: block; }
+      .flow-card:last-child::after { display: none; }
+      .contact-card { padding: 36px 24px; border-radius: 24px; }
+      .contact-phone { padding-inline: 17px; }
+      .clinic-data div { grid-template-columns: 1fr; gap: 3px; }
+      .footer-inner { grid-template-columns: 1fr; }
+      .mobile-call {
+        position: fixed; z-index: 150; left: 0; right: 0; bottom: 0; height: 64px;
+        display: flex; align-items: center; justify-content: center; gap: 10px;
+        color: var(--white); background: var(--orange-dark); font-size: 16px; font-weight: 800;
+        box-shadow: 0 -7px 22px rgba(36,51,46,.17);
+      }
+      .mobile-call svg { width: 22px; height: 22px; }
+    }
 
-@media (max-width: 700px) {
-  html { scroll-padding-top: 68px; }
-  body { padding-bottom: 62px; }
-  .siteHeader { min-height: 68px; padding: 0 18px; }
-  .identitySeal { width: 38px; height: 38px; }
-  .identity strong { font-size: 15px; }
-  .identity small { font-size: 8px; }
-  .headerCall { display: none; }
-  .hero { min-height: auto; padding: 54px 22px 60px; display: flex; flex-direction: column; gap: 48px; }
-  .hero h1 { font-size: clamp(37px, 11vw, 49px); }
-  .heroLead { font-size: 14px; }
-  .heroAction { width: 100%; }
-  .primaryCall { width: calc(100% - 7px); min-width: 0; }
-  .heroImageWrap { width: 100%; height: 430px; }
-  .heroImageWrap::before { inset: 28px -30px -20px 38px; }
-  .heroImageWrap img { border-radius: 48% 52% 8px 36%; }
-  .sunDisc { width: 80px; height: 80px; right: -14px; top: -20px; }
-  .imageCaption { left: -6px; right: 24px; bottom: 18px; padding: 13px 15px; font-size: 12px; }
-  .quickFacts { padding: 0; grid-template-columns: 1fr 1fr; }
-  .quickFacts div { min-height: 112px; border-bottom: 1px solid #45606d; }
-  .quickFacts div:nth-child(2) { border-right: 0; }
-  .signal, .promise, .insurance, .faq, .contact { padding: 78px 22px; grid-template-columns: 1fr; gap: 38px; }
-  .eligible, .cost { padding: 78px 22px; }
-  .eligibleGrid { grid-template-columns: 1fr; gap: 34px; }
-  .eligibleList li { padding: 20px 20px 20px 62px; }
-  .eligibleList span { left: 20px; top: 19px; }
-  .costGrid { grid-template-columns: 1fr; }
-  .costGrid article { min-height: 0; border-right: 0; border-bottom: 1px solid #4b6571; }
-  .costGrid article:last-child { border-bottom: 0; }
-  .signalNote { grid-column: 1; margin: -20px 0 0; }
-  .promise { min-height: 0; }
-  .promiseTitle { gap: 22px; }
-  .verticalNote { display: none; }
-  .threeWords { grid-template-columns: 1fr; }
-  .threeWords span, .threeWords span:last-child { padding: 16px 0; border-right: 0; border-bottom: 1px solid #45606d; }
-  .care, .visit { padding: 78px 22px; }
-  .sectionHeading { margin-bottom: 38px; }
-  .careBoard { grid-template-columns: 1fr; }
-  .careBoard .careMain { min-height: 360px; grid-row: auto; padding: 36px 28px; }
-  .careBoard article { min-height: 0; padding: 30px 26px; }
-  .careMain h3 { font-size: 28px; }
-  .finePrint { text-align: left; }
-  .insuranceQuestion { padding: 32px 27px; margin-right: 16px; }
-  .insuranceQuestion::after { right: 30px; bottom: -18px; transform: rotate(135deg); }
-  .visit .sectionHeading { margin-left: 0; text-align: left; }
-  .visitList li { grid-template-columns: 50px 1fr; gap: 16px; }
-  .visitList li > div { grid-template-columns: 1fr; gap: 8px; }
-  .visitList .spoken { margin-bottom: 7px; font-size: 15px; }
-  .faqHeading { margin-bottom: 4px; }
-  details > p { padding-left: 31px; }
-  .contactPhone strong { font-size: 32px; }
-  .clinicFacts div { grid-template-columns: 1fr; gap: 4px; }
-  footer { padding: 40px 22px; grid-template-columns: 1fr; }
-  .mobileCall { position: fixed; z-index: 80; left: 0; right: 0; bottom: 0; height: 62px; display: flex; align-items: center; justify-content: center; gap: 9px; color: var(--white); background: var(--orange-dark); font-family: "Yu Gothic", sans-serif; font-size: 15px; font-weight: 800; box-shadow: 0 -5px 18px rgba(23,39,47,.16); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
-}
-
-:focus-visible { outline: 3px solid #f3ac68; outline-offset: 4px; }
-</style>
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { transition-duration: .01ms !important; }
+    }
+  </style>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -302,7 +306,7 @@ footer { padding: 46px max(28px, calc((100% - 1120px)/2)); display: grid; grid-t
         "name": "マッサージ・はり オッケー治療院",
         "alternateName": "オッケー治療院",
         "url": "https://ok-chiryoin.github.io/",
-        "image": "https://ok-chiryoin.github.io/assets/okke-hero-original.webp",
+        "image": "https://ok-chiryoin.github.io/assets/hero-home-visit.webp",
         "telephone": "+81-90-4506-4478",
         "priceRange": "健康保険の自己負担1〜3割・自費は個別案内",
         "address": {
@@ -313,13 +317,10 @@ footer { padding: 46px max(28px, calc((100% - 1120px)/2)); display: grid; grid-t
           "streetAddress": "堀江町甲316-5",
           "addressCountry": "JP"
         },
-        "areaServed": {
-          "@type": "City",
-          "name": "松山市"
-        },
+        "areaServed": { "@type": "City", "name": "松山市" },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
-          "name": "訪問マッサージ",
+          "name": "訪問施術",
           "itemListElement": [
             {
               "@type": "Offer",
@@ -357,42 +358,27 @@ footer { padding: 46px max(28px, calc((100% - 1120px)/2)); display: grid; grid-t
           {
             "@type": "Question",
             "name": "本人ではなく、家族から相談できますか？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "はい。ご家族、ケアマネジャー、施設の方からもご相談いただけます。分かる範囲で、現在のご様子と訪問先をお聞かせください。"
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "はい。ご家族、ケアマネジャー、施設の方からもご相談いただけます。分かる範囲で、現在のご様子と訪問先をお聞かせください。" }
           },
           {
             "@type": "Question",
             "name": "健康保険を使えるのは、どのような場合ですか？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "歩行が難しく通院が困難な方などで、医師の同意が得られた場合に対象となることがあります。お身体の状態によって異なるため、まず状況を伺ってご案内します。"
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "歩行が難しく通院が困難な方などで、医師の同意が得られた場合に対象となることがあります。お身体の状態によって異なるため、まず状況を伺ってご案内します。" }
           },
           {
             "@type": "Question",
             "name": "介護保険のサービスと一緒に利用できますか？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "訪問マッサージで利用するのは医療保険です。条件を満たす場合は、介護保険のサービスと併用できることがあります。"
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "訪問マッサージで利用するのは健康保険です。条件を満たす場合は、介護保険のサービスと併用できることがあります。" }
+          },
+          {
+            "@type": "Question",
+            "name": "鍼治療は必ず行いますか？",
+            "acceptedAnswer": { "@type": "Answer", "text": "いいえ。マッサージが基本です。鍼治療はご希望とお身体の状態に応じてご提案し、事前に内容をご説明したうえで行います。" }
           },
           {
             "@type": "Question",
             "name": "自費でも訪問してもらえますか？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "はい。健康保険を使った訪問マッサージが中心ですが、ご希望があれば自費での訪問にも対応します。訪問地域や費用はお電話でご確認ください。"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "松山市のどこまで来てもらえますか？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "松山市内を中心に伺います。地域や時間帯によって調整が必要な場合がありますので、訪問先の住所をお電話でお知らせください。"
-            }
+            "acceptedAnswer": { "@type": "Answer", "text": "はい。健康保険を使った訪問マッサージが中心ですが、ご希望があれば自費での訪問にも対応します。費用は事前にご説明します。" }
           }
         ]
       }
@@ -400,5 +386,212 @@ footer { padding: 46px max(28px, calc((100% - 1120px)/2)); display: grid; grid-t
   }
   </script>
 </head>
-<body><a class="skipLink" href="#main">本文へ移動</a><header class="siteHeader"><a class="identity" href="#top" aria-label="オッケー治療院 トップへ"><span class="identitySeal" aria-hidden="true">オ</span><span><strong>オッケー治療院</strong><small>松山市の健康保険を使った訪問マッサージ</small></span></a><nav aria-label="ページ内メニュー"><a href="#eligible">対象の方</a><a href="#care">施術</a><a href="#insurance">保険</a><a href="#cost">費用</a><a href="#visit">ご利用の流れ</a></nav><a class="headerCall" href="tel:09045064478"><span>電話で相談</span><strong>090-4506-4478</strong></a></header><main id="main"><div id="top"></div><section class="hero"><div class="heroCopy"><p class="kicker">松山市 ／ ご自宅・施設へ訪問</p><h1><em>松山市の訪問マッサージ</em><br/>健康保険のご相談から、<br/>いつもの場所へ。</h1><p class="heroLead">歩行が難しく、治療院へ通うことが困難な方のもとへ伺います。医師の同意のもと、健康保険を使って受けられる訪問マッサージを中心に、ご希望に応じて自費での訪問にも対応します。</p><div class="heroAction"><a class="primaryCall" href="tel:09045064478"><span class="callIcon" aria-hidden="true">↗</span><span><small>ご相談・訪問予約</small><strong>090-4506-4478</strong></span></a><p>完全予約制<br/>受付時間はお電話でご確認ください</p></div></div><div class="heroImageWrap"><div class="sunDisc" aria-hidden="true"></div><img src="assets/okke-hero-original.webp" alt="ご自宅で利用者と落ち着いて話をする訪問施術者のイメージ" width="1536" height="1024"/><p class="imageCaption"><span>01</span> 施術の前に、話す時間を。</p></div></section><section class="quickFacts" aria-label="訪問マッサージの概要"><div><strong>国家資格者が訪問</strong><span>あん摩マッサージ指圧師・はり師の資格を持つ施術者が伺います。</span></div><div><strong>健康保険に対応</strong><span>医師の同意により、健康保険を利用できる場合があります。</span></div><div><strong>介護保険とは別枠</strong><span>介護保険の利用限度額を使わず、原則として併用できます。</span></div><div><strong>松山市を中心に訪問</strong><span>堀江町から松山市内を中心に対応します。</span></div></section><section class="signal" aria-labelledby="signal-title"><div class="signalIntro"><p class="sectionNo">最初のご相談</p><h2 id="signal-title">こんなときは、<br/>電話で様子をお聞かせください。</h2></div><ul><li><span>01</span>玄関まで歩くこと自体が負担になってきた</li><li><span>02</span>長い移動や待ち時間を避けたい</li><li><span>03</span>慣れた場所で、落ち着いて施術を受けたい</li></ul><p class="signalNote">ご本人からでも、ご家族・ケアマネジャー・施設の方からでもご相談いただけます。</p></section><section class="eligible" id="eligible" aria-labelledby="eligible-title"><div class="eligibleGrid"><div class="eligibleLead"><p class="sectionNo">対象になる方の目安</p><h2 id="eligible-title">通うことが難しい方へ、<br/>こちらから伺います。</h2><p>病名だけで決まるものではありません。お身体の状態や通院の難しさを伺い、健康保険を利用できる可能性をご案内します。</p></div><div><ul class="eligibleList"><li><span>01</span>歩行が難しい、または介助が必要で、治療院への通院が困難な方</li><li><span>02</span>麻痺、関節の動かしにくさ、筋力低下などで日常生活に負担がある方</li><li><span>03</span>ご自宅や入居施設で、身体の状態に合わせた施術を希望される方</li><li><span>04</span>介護サービスを利用中で、健康保険による訪問マッサージも検討したい方</li></ul><p class="eligibleNote">健康保険の適用には医師の同意が必要です。対象になるか分からない段階でも、お電話でご相談ください。</p></div></div></section><section class="promise" aria-labelledby="promise-title"><div class="promiseTitle"><p class="verticalNote">OKKEI CLINIC ／ MATSUYAMA</p><div><p class="sectionNo light">オッケー治療院が大切にすること</p><h2 id="promise-title">からだだけを見ない。<br/>その人の一日を想像する。</h2></div></div><div class="promiseText"><p>同じ痛みや動かしにくさでも、困る場面は人によって違います。 起き上がるとき、着替えるとき、家族と食卓を囲むとき。 お話を聞きながら、今の生活に無理のない施術を組み立てます。</p><div class="threeWords" aria-label="施術で大切にする三つのこと"><span><b>聞く</b><small>今日の体調と暮らし</small></span><span><b>整える</b><small>刺激量や姿勢を調整</small></span><span><b>つなぐ</b><small>次の訪問までの過ごし方</small></span></div></div></section><section class="care" id="care" aria-labelledby="care-title"><div class="sectionHeading"><p class="sectionNo">施術について</p><h2 id="care-title">健康保険を使った<br/>訪問マッサージが中心です。</h2><p>医師の同意を得て行う訪問マッサージを中心に、その日の体調に合わせて無理のない施術を行います。ご希望があれば、鍼治療も追加できます。</p></div><div class="careBoard"><article class="careMain"><span class="careIndex">A</span><div><h3>訪問マッサージ</h3><p>ご自宅や入居施設へ伺い、姿勢や体調に配慮しながら施術します。ベッドや布団など、普段の環境に合わせて進めます。</p></div></article><article><span class="careIndex">B</span><h3>ご希望に応じた鍼治療</h3><p>マッサージを基本に、ご希望とお身体の状態に応じて鍼治療を追加します。施術前に内容をご説明し、無理に行うことはありません。</p></article><article><span class="careIndex">C</span><h3>自費での訪問</h3><p>健康保険の条件に当てはまらない場合でも、ご希望があれば自費での訪問マッサージに対応します。費用は事前にご説明します。</p></article></div><p class="finePrint">施術の感じ方や経過には個人差があり、症状の改善を保証するものではありません。</p></section><section class="insurance" id="insurance" aria-labelledby="insurance-title"><div class="insuranceQuestion"><span aria-hidden="true">?</span><p>保険が使えるか<br/>分からないのですが…</p></div><div class="insuranceAnswer"><p class="sectionNo">健康保険を使った訪問マッサージ</p><h2 id="insurance-title">制度のことから、<br/>分かりやすくご説明します。</h2><p>歩行が難しく通院が困難な方などは、医師の同意のもとで健康保険を利用できる場合があります。この仕組みの正式な呼び方が「療養費」です。自己負担は、お持ちの保険証や受給者証、施術内容などによって異なります。</p><ul><li>介護保険とは別の制度です</li><li>保険利用には医師の同意が必要です</li><li>手続きと費用は利用前にご説明します</li></ul><a href="tel:09045064478">保険利用について電話で聞く <span aria-hidden="true">→</span></a></div></section><section class="cost" id="cost" aria-labelledby="cost-title"><div class="costHeader"><p class="sectionNo light">費用について</p><h2 id="cost-title">費用は、始める前に<br/>分かりやすくお伝えします。</h2><p>健康保険を利用する場合の費用は、保険証などに記載された自己負担割合や施術内容などによって決まります。個別の金額は、お身体の状態や施術内容を確認してご説明します。</p></div><div class="costGrid"><article><span>01</span><h3>自己負担は1〜3割</h3><p>お持ちの保険証や受給者証などにより、自己負担割合が異なります。</p></article><article><span>02</span><h3>介護保険の枠は使いません</h3><p>健康保険の制度のため、介護保険サービスと原則として併用できます。</p></article><article><span>03</span><h3>利用前に個別説明</h3><p>施術内容などを確認し、費用と必要な手続きを順番にご案内します。</p></article></div><p class="costAction"><a href="tel:09045064478">費用について電話で確認する →</a></p></section><section class="visit" id="visit" aria-labelledby="visit-title"><div class="sectionHeading"><p class="sectionNo">ご利用まで</p><h2 id="visit-title">ご相談から施術開始まで、<br/>4つの手順です。</h2></div><ol class="visitList"><li><span>01</span><div><p class="spoken">「まず、今のご様子を教えてください」</p><h3>お電話で相談</h3><p>お身体のこと、訪問先、ご希望を分かる範囲で伺います。</p></div></li><li><span>02</span><div><p class="spoken">「利用方法と費用をご説明します」</p><h3>内容を確認</h3><p>施術の考え方や健康保険の条件を、順を追ってお伝えします。</p></div></li><li><span>03</span><div><p class="spoken">「必要な手続きもご案内します」</p><h3>同意書などの準備</h3><p>健康保険を利用する場合は、かかりつけ医の同意が必要です。</p></div></li><li><span>04</span><div><p class="spoken">「いつもの場所へ伺います」</p><h3>訪問施術を開始</h3><p>相談した日時に訪問し、その日の体調を確認してから始めます。</p></div></li></ol></section><section class="faq" aria-labelledby="faq-title"><div class="faqHeading"><p class="sectionNo light">よくある質問</p><h2 id="faq-title">聞いておきたいこと。</h2><p>ここにないことも、お電話で気兼ねなくお尋ねください。</p></div><div class="faqList"><details><summary><span>01</span>本人ではなく、家族から相談できますか？</summary><p>はい。ご家族、ケアマネジャー、施設の方からもご相談いただけます。分かる範囲で、現在のご様子と訪問先をお聞かせください。</p></details><details><summary><span>02</span>健康保険を使えるのは、どのような場合ですか？</summary><p>歩行が難しく通院が困難な方などで、医師の同意が得られた場合に対象となることがあります。お身体の状態によって異なるため、まず状況を伺ってご案内します。</p></details><details><summary><span>03</span>介護保険のサービスと一緒に利用できますか？</summary><p>訪問鍼灸・マッサージで利用するのは医療保険です。条件を満たす場合は、介護保険のサービスと併用できることがあります。</p></details><details><summary><span>04</span>自費でも訪問してもらえますか？</summary><p>はい。健康保険を使った訪問マッサージが中心ですが、ご希望があれば自費での訪問にも対応します。訪問地域や費用はお電話でご確認ください。</p></details><details><summary><span>05</span>松山市のどこまで来てもらえますか？</summary><p>松山市内を中心に伺います。地域や時間帯によって調整が必要な場合がありますので、訪問先の住所をお電話でお知らせください。</p></details></div></section><section class="contact" id="contact" aria-labelledby="contact-title"><div class="contactLead"><p class="sectionNo">お問い合わせ</p><h2 id="contact-title">まずは、<br/>一度お話ししましょう。</h2><p>利用できるか知りたい、家族のことを相談したい。そんな段階からお電話ください。</p><a class="contactPhone" href="tel:09045064478"><small>オッケー治療院へ電話する</small><strong>090-4506-4478</strong></a></div><dl class="clinicFacts"><div><dt>名称</dt><dd>マッサージ・はり<br/>オッケー治療院</dd></div><div><dt>所在地</dt><dd>愛媛県松山市堀江町甲316-5</dd></div><div><dt>訪問地域</dt><dd>松山市内を中心に対応<br/>その他の地域はご相談ください</dd></div><div><dt>受付</dt><dd>完全予約制<br/>受付時間はお電話でお問い合わせください</dd></div></dl></section></main><footer><div class="footerName"><span>オ</span><strong>オッケー治療院</strong></div><p>松山市の健康保険を使った訪問マッサージ<br/>TEL 090-4506-4478</p><p>© 2026 OKKEI CHIRYOIN</p></footer><a class="mobileCall" href="tel:09045064478"><span aria-hidden="true">↗</span> 電話で相談する</a></body>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="オッケー治療院 トップへ">
+        <span class="brand-mark" aria-hidden="true">オ</span>
+        <span><small>マッサージ・はり</small><strong>オッケー治療院</strong></span>
+      </a>
+      <nav class="main-nav" aria-label="ページ内メニュー">
+        <a href="#about">訪問マッサージ</a>
+        <a href="#service">施術内容</a>
+        <a href="#insurance">健康保険</a>
+        <a href="#flow">ご利用の流れ</a>
+        <a href="#faq">よくある質問</a>
+      </nav>
+      <a class="header-phone" href="tel:09045064478">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.33 1.84.56 2.8.69A2 2 0 0 1 22 16.92z"/></svg>
+        <span>電話で相談<strong>090&#8209;4506&#8209;4478</strong></span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <div id="top"></div>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">松山市のご自宅・介護施設へ</p>
+          <h1>通うことが<br>むずかしい方へ。<br><span class="soft">訪問マッサージ</span>を。</h1>
+          <p class="hero-lead">国家資格を持つ施術者が、いつもの場所へ伺います。医師の同意のもと、健康保険を使って受けられる訪問マッサージです。</p>
+          <ul class="hero-badges">
+            <li>国家資格者が訪問</li>
+            <li>健康保険に対応</li>
+            <li>松山市を中心に訪問</li>
+          </ul>
+          <div class="hero-actions">
+            <a class="cta-phone" href="tel:09045064478">
+              <span class="icon"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.33 1.84.56 2.8.69A2 2 0 0 1 22 16.92z"/></svg></span>
+              <span><small>ご相談・訪問予約</small><strong>090&#8209;4506&#8209;4478</strong></span>
+            </a>
+            <p class="hero-note">ご本人・ご家族・ケアマネジャーから<br>お気軽にお電話ください</p>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-dot" aria-hidden="true"></div>
+          <div class="hero-photo"><img src="assets/hero-home-visit.webp" alt="明るいご自宅で利用者の話を丁寧に聞く訪問施術者" width="1600" height="1066"></div>
+          <p class="photo-label"><span>大切にしていること</span>お身体の状態と、日々のご様子を丁寧に伺います。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="安心してご相談いただくための三つの情報">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <svg aria-hidden="true" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 4l16 7v11c0 10-6.8 18-16 22C14.8 40 8 32 8 22V11l16-7z"/><path d="M16 24l5 5 11-12"/></svg>
+          <span><strong>国家資格者による施術</strong>あん摩マッサージ指圧師・はり師が伺います</span>
+        </div>
+        <div class="trust-item">
+          <svg aria-hidden="true" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 22L24 8l17 14"/><path d="M12 20v20h24V20M20 40V27h8v13"/></svg>
+          <span><strong>ご自宅・施設へ訪問</strong>慣れた環境で落ち着いて受けられます</span>
+        </div>
+        <div class="trust-item">
+          <svg aria-hidden="true" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="24" cy="24" r="18"/><path d="M24 14v20M14 24h20"/></svg>
+          <span><strong>健康保険の相談に対応</strong>医師の同意や手続きも分かりやすくご案内します</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="section-label">訪問マッサージについて</p>
+          <h2>治療院へ通うことが難しい方のもとへ、<br>こちらから伺います。</h2>
+          <p>病名だけで決まるものではありません。お身体の状態や通院の難しさを伺い、利用できる可能性をご案内します。</p>
+        </div>
+        <div class="concern-grid">
+          <article class="concern-card"><span class="num">01</span><h3>歩行や外出が<br>大きな負担になっている</h3><p>歩くことが難しい方や、外出に介助が必要な方からご相談いただけます。</p></article>
+          <article class="concern-card"><span class="num">02</span><h3>長い移動や待ち時間を<br>避けたい</h3><p>ご自宅や入居施設で、その日の体調に合わせて施術を受けられます。</p></article>
+          <article class="concern-card"><span class="num">03</span><h3>ご家族の身体のことを<br>相談したい</h3><p>ご本人だけでなく、ご家族やケアマネジャー、施設の方からもご相談いただけます。</p></article>
+        </div>
+        <p class="concern-note">対象になるか分からない段階でも大丈夫です。まずは今のご様子をお電話でお聞かせください。</p>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">オッケー治療院の安心</p>
+          <h2>はじめての方にも、<br>分かりやすく、丁寧に。</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="24" cy="16" r="8"/><path d="M10 42c1-10 6-16 14-16s13 6 14 16M18 16h12"/></svg></div>
+            <h3>国家資格者が担当</h3><p>あん摩マッサージ指圧師・はり師の国家資格を持つ施術者が訪問します。</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11h30v26H9z"/><path d="M18 24h12M24 18v12M14 7v8M34 7v8"/></svg></div>
+            <h3>その日の体調に配慮</h3><p>施術前にお話を伺い、姿勢や刺激の量をお身体の状態に合わせて調整します。</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 11h32v23H20l-8 6v-6H8z"/><path d="M15 19h18M15 25h13"/></svg></div>
+            <h3>制度も丁寧に説明</h3><p>健康保険の条件、医師の同意、費用などを、始める前に順を追ってご案内します。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cream" id="service">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-label">施術内容</p>
+          <h2>マッサージを基本に、<br>ご希望に応じて鍼治療も。</h2>
+          <p>普段過ごしているベッドや布団、椅子など、その方の環境に合わせて無理のない施術を行います。</p>
+        </div>
+        <div class="service-panel">
+          <article class="service-main">
+            <span class="service-tag">基本の施術</span><h3>訪問マッサージ</h3>
+            <p>ご自宅や介護施設へ伺い、お身体の状態を確認しながら施術します。健康保険の条件に当てはまる場合は、医師の同意のもとで利用できます。</p>
+            <ul class="service-list"><li>姿勢や体調に合わせた無理のない施術</li><li>健康保険の利用について相談できる</li><li>ご希望があれば自費での訪問にも対応</li></ul>
+          </article>
+          <article class="service-side">
+            <span class="service-tag">ご希望に応じて</span><h3>鍼治療</h3>
+            <p>マッサージを基本に、ご希望とお身体の状態に応じて鍼治療を追加します。施術前に内容をご説明します。</p>
+            <ul class="service-list"><li>はり師の国家資格を持つ施術者が担当</li><li>ご希望を確認してから実施</li><li>無理におすすめすることはありません</li></ul>
+            <p class="service-note">施術の感じ方や経過には個人差があり、症状の改善を保証するものではありません。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="insurance">
+      <div class="container insurance-grid">
+        <div class="insurance-copy">
+          <p class="section-label">健康保険について</p>
+          <h2>費用や手続きも、<br>始める前にご説明します。</h2>
+          <p>歩行が難しく通院が困難な方などは、医師の同意のもとで健康保険を利用できる場合があります。自己負担は保険証や受給者証などによって異なります。</p>
+          <a class="insurance-call" href="tel:09045064478">健康保険について電話で聞く <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="insurance-points">
+          <article class="insurance-point"><span>1</span><div><h3>医師の同意が必要です</h3><p>健康保険を利用する場合は、かかりつけ医などの同意が必要です。</p></div></article>
+          <article class="insurance-point"><span>2</span><div><h3>自己負担は原則1〜3割</h3><p>保険証や受給者証などに記載された負担割合、施術内容により異なります。</p></div></article>
+          <article class="insurance-point"><span>3</span><div><h3>介護保険とは別の制度です</h3><p>条件を満たす場合は、介護保険のサービスと併用できることがあります。</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="flow">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="section-label">ご利用までの流れ</p>
+          <h2>ご相談から施術開始まで、<br>4つの手順です。</h2>
+          <p>分からないことは、その都度お電話でご確認いただけます。</p>
+        </div>
+        <div class="flow-grid">
+          <article class="flow-card"><span class="flow-num">1</span><h3>お電話で相談</h3><p>お身体のこと、訪問先、ご希望を分かる範囲で伺います。</p></article>
+          <article class="flow-card"><span class="flow-num">2</span><h3>内容をご説明</h3><p>施術の考え方、健康保険の条件、費用についてご案内します。</p></article>
+          <article class="flow-card"><span class="flow-num">3</span><h3>必要な手続き</h3><p>健康保険を利用する場合は、医師の同意書などを準備します。</p></article>
+          <article class="flow-card"><span class="flow-num">4</span><h3>訪問施術を開始</h3><p>相談した日時に伺い、その日の体調を確認してから始めます。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container faq-layout">
+        <div class="faq-intro"><p class="section-label">よくある質問</p><h2>ご相談の前に、<br>よく聞かれること。</h2><p>ここにないことも、お電話で気兼ねなくお尋ねください。</p></div>
+        <div class="faq-list">
+          <details><summary>本人ではなく、家族から相談できますか？</summary><p>はい。ご家族、ケアマネジャー、施設の方からもご相談いただけます。分かる範囲で現在のご様子と訪問先をお聞かせください。</p></details>
+          <details><summary>健康保険を使えるのは、どのような場合ですか？</summary><p>歩行が難しく通院が困難な方などで、医師の同意が得られた場合に対象となることがあります。お身体の状態によって異なるため、まず状況を伺ってご案内します。</p></details>
+          <details><summary>介護保険のサービスと一緒に利用できますか？</summary><p>訪問マッサージで利用するのは健康保険です。条件を満たす場合は、介護保険のサービスと併用できることがあります。</p></details>
+          <details><summary>鍼治療は必ず行いますか？</summary><p>いいえ。マッサージが基本です。鍼治療はご希望とお身体の状態に応じてご提案し、事前に内容をご説明したうえで行います。</p></details>
+          <details><summary>自費でも訪問してもらえますか？</summary><p>はい。健康保険を使った訪問マッサージが中心ですが、ご希望があれば自費での訪問にも対応します。費用は事前にご説明します。</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="contact">
+      <div class="container contact-card">
+        <div class="contact-copy">
+          <p class="section-label">お問い合わせ</p>
+          <h2>まずは、今のご様子を<br>お聞かせください。</h2>
+          <p>利用できるか知りたい、ご家族のことを相談したい。そんな段階からお電話ください。</p>
+          <a class="contact-phone" href="tel:09045064478">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.33 1.84.56 2.8.69A2 2 0 0 1 22 16.92z"/></svg>
+            <span><small>オッケー治療院へ電話する</small><strong>090&#8209;4506&#8209;4478</strong></span>
+          </a>
+        </div>
+        <dl class="clinic-data">
+          <div><dt>正式名称</dt><dd>マッサージ・はり<br>オッケー治療院</dd></div>
+          <div><dt>所在地</dt><dd>愛媛県松山市堀江町甲316-5</dd></div>
+          <div><dt>訪問地域</dt><dd>松山市内を中心に対応<br>その他の地域はご相談ください</dd></div>
+          <div><dt>受付</dt><dd>完全予約制<br>受付時間はお電話でお問い合わせください</dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand"><small>マッサージ・はり</small>オッケー治療院</div>
+      <p>松山市の健康保険を使った訪問マッサージ<br>TEL 090-4506-4478</p>
+      <p>© 2026 OKKEI CHIRYOIN</p>
+    </div>
+  </footer>
+  <a class="mobile-call" href="tel:09045064478">
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.69 2.8a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.33 1.84.56 2.8.69A2 2 0 0 1 22 16.92z"/></svg>
+    電話で相談する
+  </a>
+</body>
 </html>
